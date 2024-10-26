@@ -7,14 +7,6 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'GoTogetherAPI' " />
   <ItemGroup>
-    <None Remove="Controllers\Itinerary\" />
-    <None Remove="Controllers\Authentication\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\Itinerary\" />
-    <Folder Include="Controllers\Authentication\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\GoTogether.DataAccess\GoTogether.DataAccess.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
