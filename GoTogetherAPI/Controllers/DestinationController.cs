@@ -4,11 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
+//Provides information about a user’s selected travel destination, including popular sites, dining options, hotels, and events.
 namespace GoTogether.API.Controllers
 {
-    public class BookingController : Controller
+    public class DestinationController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()

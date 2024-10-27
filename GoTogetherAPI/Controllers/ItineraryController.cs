@@ -10,25 +10,25 @@ namespace GoTogether.API.Controllers.Itinerary
 {
     public class ItineraryController : Controller
     {
-        [HttpPost]
-        public IEnumerable<Itinerary> Create()
-        {
+        //[HttpPost]
+        //public IEnumerable<Itinerary> Create()
+        //{
            
-        }
-        [HttpGet]
-        public IEnumerable<Itinerary> Get()
-        {
+        //}
+        //[HttpGet]
+        //public IEnumerable<Itinerary> Get()
+        //{
 
-        }
-        [HttpPut]
-        public IEnumerable Update()
-        {
+        //}
+        //[HttpPut]
+        //public IEnumerable Update()
+        //{
 
-        }
-        [HttpDelete]
-        public IEnumerable Delete()
-        {
+        //}
+        //[HttpDelete]
+        //public IEnumerable Delete()
+        //{
 
-        }
+        //}
     }
 }
