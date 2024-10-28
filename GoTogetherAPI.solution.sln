@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoTogether.DataAccess", "Go
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoTogether.Tests", "GoTogether.Tests\GoTogether.Tests.csproj", "{397F3C67-5C56-44C2-89E6-3CDF79B11F42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoTogether.Core", "GoTogether.Core\GoTogether.Core.csproj", "{66D12DE5-6D3D-45C1-B97F-052DB9DB9483}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{397F3C67-5C56-44C2-89E6-3CDF79B11F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{397F3C67-5C56-44C2-89E6-3CDF79B11F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{397F3C67-5C56-44C2-89E6-3CDF79B11F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D12DE5-6D3D-45C1-B97F-052DB9DB9483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D12DE5-6D3D-45C1-B97F-052DB9DB9483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D12DE5-6D3D-45C1-B97F-052DB9DB9483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D12DE5-6D3D-45C1-B97F-052DB9DB9483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

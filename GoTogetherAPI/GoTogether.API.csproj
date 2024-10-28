@@ -7,7 +7,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'GoTogetherAPI' " />
   <ItemGroup>
-    <ProjectReference Include="..\GoTogether.DataAccess\GoTogether.DataAccess.csproj">
+    <ProjectReference Include="..\GoTogether.Core\GoTogether.Core.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
