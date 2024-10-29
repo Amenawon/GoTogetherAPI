@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GoTogether.API.Controllers.Itinerary
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class ItineraryController : Controller
     {
         //[HttpPost]

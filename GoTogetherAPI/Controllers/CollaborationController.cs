@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GoTogether.API.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class CollaborationController : Controller
     {
         // GET: /<controller>/

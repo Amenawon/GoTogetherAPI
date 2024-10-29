@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GoTogether.API.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class HomeController : Controller
     {
         // GET3: /<controller>/
